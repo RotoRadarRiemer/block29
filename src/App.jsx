@@ -4,7 +4,7 @@ import PlayersList from './components/PlayerList';
 import PlayerDetails from './components/PlayerDetails';
 import AddPlayerForm from './components/AddPlayerForm';
 import PlayerContext from './components/PlayerContext';
-import './app.css'
+import './styles/App.css'
 
 function App() {
     const [players, setPlayers] = useState([]);
